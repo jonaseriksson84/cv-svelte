@@ -5,19 +5,45 @@
   const buzzwords = [
     {
       heading: "Frameworks",
-      words: ["React", "AngularJS", "Django"]
+      words: ["React", "Svelte", "Vue", "AngularJS", "Django", "Node", "jQuery"]
     },
     {
       heading: "Languages",
-      words: ["JavaScript", "Python", "Java", "SQL", "Jinja2"]
+      words: ["JavaScript", "Python", "HTML5", "CSS3", "Java", "SQL", "Jinja2"]
     },
     {
       heading: "Databases",
-      words: ["postgres, MySQL"]
+      words: ["postgres, MySQL, DB2"]
+    },
+    {
+      heading: "Tooling",
+      words: [
+        "Webpack",
+        "Rollup",
+        "Gulp",
+        "Grunt",
+        "Yarn",
+        "Karma",
+        "Jasmine",
+        "pytest"
+      ]
+    },
+    {
+      heading: "Version handling & CM",
+      words: ["Git", "CVS", "SVN", "JIRA", "TFS"]
     },
     {
       heading: "Other",
-      words: ["Amazon Web Services (AWS)", "Ansible", "Vagrant", "Jenkins"]
+      words: [
+        "Amazon Web Services (AWS)",
+        "Ansible",
+        "Vagrant",
+        "Jenkins",
+        "Linux",
+        "Scrum",
+        "Web Design",
+        "Project Management"
+      ]
     }
   ];
 </script>
@@ -73,7 +99,7 @@
         display: block;
         margin: 0 auto;
         background-color: #4d4d4f;
-        height: 3px;
+        height: 2px;
         width: 75%;
         margin-top: 25px;
       }
