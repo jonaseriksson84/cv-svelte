@@ -1,5 +1,25 @@
 <script>
   import Sidebar from "./Sidebar.svelte";
+  import Experience from "./Experience.svelte";
+
+  const experiences = [
+    {
+      title: "Fullstack Web Developer",
+      company: "Reason Studios (Propellerhead Software)",
+      from: "October 2017",
+      to: "present",
+      description: "Bla bla bla",
+      words: ["Bajs", "Knark", "Vapen"]
+    },
+    {
+      title: "Consultant",
+      company: "HiQ",
+      from: "August 2014",
+      to: "October 2017",
+      description:
+        "Worked as a consultant in primarily frontend positions in the organizations listed below."
+    }
+  ];
 </script>
 
 <style type="text/scss">
@@ -31,19 +51,24 @@
       z-index: 2;
       padding: 50px;
 
-      color: #e6e6e8;
+      .name {
+        color: #e6e6e8;
+        h1 {
+          font-size: 5rem;
+          margin: 0;
+          text-align: center;
+        }
 
-      h1 {
-        font-size: 5rem;
-        margin: 0;
-        text-align: center;
+        p {
+          margin: 0;
+          &:nth-of-type(2) {
+            text-align: right;
+          }
+        }
       }
 
-      p {
-        margin: 0;
-        &:nth-of-type(2) {
-          text-align: right;
-        }
+      h3 {
+        margin-top: 90px;
       }
     }
   }
@@ -55,11 +80,24 @@
 
   <Sidebar />
   <main>
-    <p>Hi, my name is</p>
-    <h1>Jonas Eriksson</h1>
-    <p>
-      ... and I am a
-      <strong>FULLSTACK WEB DEVELOPER</strong>
-    </p>
+    <div class="name">
+      <p>Hi, my name is</p>
+      <h1>Jonas Eriksson</h1>
+      <p>
+        ... and I am a
+        <strong>FULLSTACK WEB DEVELOPER</strong>
+      </p>
+    </div>
+    <h3>EXPERIENCE</h3>
+
+    {#each experiences as exp}
+      <Experience
+        title={exp.title}
+        company={exp.company}
+        from={exp.from}
+        to={exp.to}
+        description={exp.description}
+        words={exp.words} />
+    {/each}
   </main>
 </div>

@@ -78,11 +78,8 @@
       margin-top: 25px;
     }
 
-    h2 {
+    h3 {
       text-align: right;
-      font-size: 1.25rem;
-      letter-spacing: 0.1rem;
-      margin-top: 50px;
     }
 
     .about p {
@@ -108,7 +105,7 @@
   <img {src} alt="Jonas" />
 
   <div class="contact-block">
-    <h2>CONTACT</h2>
+    <h3>CONTACT</h3>
     <p>
       070 420 01 75
       <i class="fa fa-phone" />
@@ -130,7 +127,7 @@
   <div class="divider" />
 
   <div class="about">
-    <h2>PROFILE</h2>
+    <h3>PROFILE</h3>
     <p>
       Jonas is a fullstack web developer with 7 years of professional
       experience. He particularly enjoys doing frontend development and
@@ -148,7 +145,7 @@
   <div class="divider" />
 
   <div class="buzzwords">
-    <h2>SKILLS</h2>
+    <h3>SKILLS</h3>
     {#each buzzwords as buzzword}
       <Buzzword heading={buzzword.heading} words={buzzword.words} />
     {/each}
