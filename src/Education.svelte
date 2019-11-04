@@ -1,10 +1,9 @@
 <script>
   export let title;
-  export let company;
+  export let school;
   export let from;
   export let to;
   export let description;
-  export let words;
 </script>
 
 <style type="text/scss">
@@ -26,8 +25,7 @@
       margin-bottom: 5px;
     }
 
-    span.buzzwords {
-      margin-top: 15px;
+    span {
       display: block;
     }
 
@@ -56,16 +54,10 @@
     <i class="fa fa-circle" />
     {title}
   </strong>
-  / {company}
   <em class="dates">{from} &mdash; {to}</em>
+  <span>{school}</span>
   {#each description as desc}
     {@html desc}
   {/each}
-  {#if words}
-    <span class="buzzwords">
-      <strong>Methods & tools:</strong>
-      <em>{words.join(', ')}</em>
-    </span>
-  {/if}
 
 </div>

@@ -52,9 +52,12 @@
 
 <style type="text/scss">
   aside {
-    margin-left: 50px;
+    @media screen {
+      margin-left: 50px;
+    }
     padding: 0 40px;
     background-color: #dedee0;
+    height: 1250px;
     //box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     border-right: 2px solid #ddd;
     max-width: 25%;
@@ -80,7 +83,7 @@
       margin-top: 25px;
     }
 
-    h3 {
+    h2 {
       text-align: right;
     }
 
@@ -107,7 +110,7 @@
   <img {src} alt="Jonas" />
 
   <div class="contact-block">
-    <h3>CONTACT</h3>
+    <h2>CONTACT</h2>
     <p>
       070 420 01 75
       <i class="fa fa-phone" />
@@ -129,11 +132,11 @@
   <div class="divider" />
 
   <div class="about">
-    <h3>PROFILE</h3>
+    <h2>PROFILE</h2>
     <p>
       Jonas is a fullstack web developer with 7 years of professional
       experience. He particularly enjoys doing frontend development and
-      JavaScript, though also comfortable with backend and API development.
+      JavaScript, though comfortable with backend and API development as well.
     </p>
     <p>
       Jonas is a social person who thrives in a strong team, but he is also full
@@ -147,7 +150,7 @@
   <div class="divider" />
 
   <div class="buzzwords">
-    <h3>SKILLS</h3>
+    <h2>SKILLS</h2>
     {#each buzzwords as buzzword}
       <Buzzword heading={buzzword.heading} words={buzzword.words} />
     {/each}
