@@ -40,6 +40,8 @@
         "Vagrant",
         "Jenkins",
         "Linux",
+        "REST",
+        "GraphQL",
         "Scrum",
         "Web Design",
         "Project Management"

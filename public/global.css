@@ -68,3 +68,7 @@ button:active {
 button:focus {
   border-color: #666;
 }
+
+li {
+  margin-bottom: 10px;
+}
