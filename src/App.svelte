@@ -3,6 +3,8 @@
   import Experience from "./Experience.svelte";
   import Education from "./Education.svelte";
 
+  const src = "static/jonas-bw-size.png";
+
   const experiences = [
     {
       title: "FULLSTACK WEB DEVELOPER",
@@ -231,62 +233,93 @@
     position: relative;
     z-index: 0;
 
-    .background-element {
+    .name {
+      min-width: 100%;
       background-color: #4d4d4f;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 300px;
+      color: #e6e6e8;
       z-index: 1;
+      padding: 50px auto;
+
+      img {
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        margin: 25px auto;
+      }
+
+      p {
+        text-align: center;
+        margin: 25px 50px;
+      }
+
+      h1 {
+        text-align: center;
+      }
     }
 
     main {
       border-radius: 2px;
       z-index: 2;
       padding: 25px;
+    }
 
-      .name,
-      p {
-        display: none;
-      }
-
-      h2 {
-        text-align: right;
-      }
+    h2 {
+      text-align: right;
     }
 
     @media screen and (min-width: 500px) {
       display: flex;
-      padding-top: 50px;
+      flex-wrap: wrap;
 
       main {
         padding: 50px;
-        margin-top: 220px;
+        margin-top: 230px;
+      }
 
-        .name {
-          display: none;
-          color: #e6e6e8;
-          h1 {
-            font-size: 5rem;
-            margin: 0;
-            text-align: center;
-          }
+      .name {
+        width: 100%;
+        color: #e6e6e8;
+        z-index: 3;
 
-          p {
-            &:nth-of-type(2) {
-              text-align: right;
-            }
-          }
+        div.img {
+          width: 25%;
+          float: left;
+        }
 
-          h2 {
-            margin-top: 90px;
+        div.rest {
+          width: 75%;
+          float: left;
+        }
+
+        h1 {
+          font-size: 5rem;
+          margin: 0;
+          text-align: center;
+        }
+
+        p {
+          text-align: left;
+          &:nth-of-type(2) {
+            text-align: right;
           }
         }
 
         h2 {
+          margin-top: 90px;
+        }
+      }
+    }
+    @media print {
+      p {
+        text-align: left;
+        &:nth-of-type(2) {
           text-align: left;
         }
+      }
+
+      h2 {
+        text-align: left;
       }
     }
   }
@@ -294,11 +327,13 @@
 
 <div class="cv">
 
-  <div class="background-element" />
+  <div class="name">
 
-  <Sidebar />
-  <main>
-    <div class="name">
+    <div class="img">
+      <img {src} alt="Jonas" />
+    </div>
+    <div class="rest">
+
       <p>Hi, my name is</p>
       <h1>Jonas Eriksson</h1>
       <p>
@@ -306,7 +341,10 @@
         <strong>FULLSTACK WEB DEVELOPER</strong>
       </p>
     </div>
+  </div>
 
+  <Sidebar />
+  <main>
     <h2>EXPERIENCE</h2>
     {#each experiences as exp}
       <Experience

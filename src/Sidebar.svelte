@@ -1,6 +1,5 @@
 <script>
   import Buzzword from "./Buzzword.svelte";
-  const src = "static/jonas-bw-size.png";
 
   const buzzwords = [
     {
@@ -56,10 +55,6 @@
       max-width: 25%;
     }
     padding: 0 15px;
-    img {
-      border-radius: 50%;
-      width: 200px;
-    }
 
     .divider {
       display: block;
@@ -89,12 +84,21 @@
         font-size: 1.25rem;
       }
     }
+
+    @media print {
+      .contact-block {
+        text-align: left;
+        width: 100%;
+      }
+
+      h2 {
+        text-align: left;
+      }
+    }
   }
 </style>
 
 <aside>
-
-  <img {src} alt="Jonas" />
 
   <div class="contact-block">
     <h2>CONTACT</h2>
