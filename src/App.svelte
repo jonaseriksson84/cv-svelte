@@ -261,7 +261,7 @@
     main {
       border-radius: 2px;
       z-index: 2;
-      padding: 25px;
+      padding: 0 25px;
     }
 
     h2 {
@@ -273,8 +273,7 @@
       flex-wrap: wrap;
 
       main {
-        padding: 50px;
-        margin-top: 230px;
+        width: 65%;
       }
 
       .name {
