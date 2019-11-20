@@ -320,6 +320,10 @@
       h2 {
         text-align: left;
       }
+
+      .name p {
+        display: none;
+      }
     }
   }
 </style>
@@ -365,4 +369,11 @@
         description={edu.description} />
     {/each}
   </main>
+
+  <div style="margin: 20px auto;">
+    <hr />
+    This site is built with
+    <a href="https://www.svelte.dev">Svelte</a>
+    because I think it's pretty cool.
+  </div>
 </div>
