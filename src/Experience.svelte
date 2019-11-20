@@ -9,7 +9,6 @@
 
 <style type="text/scss">
   div {
-    padding-left: 25px;
     position: relative;
     margin-bottom: 60px;
 
@@ -24,6 +23,10 @@
 
     strong.title {
       margin-bottom: 5px;
+    }
+
+    em {
+      margin-bottom: 10px;
     }
 
     span.buzzwords {

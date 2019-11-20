@@ -52,23 +52,10 @@
 
 <style type="text/scss">
   aside {
-    @media screen {
-      margin-left: 50px;
+    @media screen and (min-width: 500px) {
+      max-width: 25%;
     }
-    padding: 0 40px;
-    background-color: #dedee0;
-    height: 1250px;
-    //box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    border-right: 2px solid #ddd;
-    max-width: 25%;
-    padding-top: 50px;
-    border-radius: 2px;
-    z-index: 2;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+    padding: 0 15px;
     img {
       border-radius: 50%;
       width: 200px;

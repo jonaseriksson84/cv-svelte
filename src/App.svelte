@@ -220,15 +220,14 @@
   .cv {
     @media screen {
       max-width: 1200px;
-      margin: 100px auto;
+      margin: 0px auto;
       background-color: #e6e6e8;
       background-size: contain;
       box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
         0 15px 12px rgba(0, 0, 0, 0.22);
-      padding-top: 50px;
     }
+
     // background: url("static/ivory-paper.jpg");
-    display: flex;
     position: relative;
     z-index: 0;
 
@@ -243,29 +242,51 @@
     }
 
     main {
-      width: 75%;
       border-radius: 2px;
       z-index: 2;
-      padding: 50px;
+      padding: 25px;
 
-      .name {
-        color: #e6e6e8;
-        h1 {
-          font-size: 5rem;
-          margin: 0;
-          text-align: center;
-        }
-
-        p {
-          margin: 0;
-          &:nth-of-type(2) {
-            text-align: right;
-          }
-        }
+      .name,
+      p {
+        display: none;
       }
 
       h2 {
-        margin-top: 90px;
+        text-align: right;
+      }
+    }
+
+    @media screen and (min-width: 500px) {
+      display: flex;
+      padding-top: 50px;
+
+      main {
+        padding: 50px;
+        margin-top: 220px;
+
+        .name {
+          display: none;
+          color: #e6e6e8;
+          h1 {
+            font-size: 5rem;
+            margin: 0;
+            text-align: center;
+          }
+
+          p {
+            &:nth-of-type(2) {
+              text-align: right;
+            }
+          }
+
+          h2 {
+            margin-top: 90px;
+          }
+        }
+
+        h2 {
+          text-align: left;
+        }
       }
     }
   }
