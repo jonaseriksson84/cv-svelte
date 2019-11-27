@@ -268,6 +268,10 @@
       text-align: right;
     }
 
+    .bottom-thing {
+      margin: 20px auto;
+    }
+
     @media screen and (min-width: 500px) {
       display: flex;
       flex-wrap: wrap;
@@ -324,6 +328,10 @@
       .name p {
         display: none;
       }
+
+      .bottom-thing {
+        display: none;
+      }
     }
   }
 </style>
@@ -370,10 +378,10 @@
     {/each}
   </main>
 
-  <div style="margin: 20px auto;">
+  <div class="bottom-thing">
     <hr />
     This site is built with
     <a href="https://www.svelte.dev">Svelte</a>
-    because I think it's pretty cool.
+    &ndash; because I think it's pretty cool.
   </div>
 </div>
