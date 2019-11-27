@@ -110,7 +110,7 @@
 </style>
 
 <aside>
-  <h2>CONTACT</h2>
+
   <div class="contact-block">
 
     <div class="block-thing">
@@ -152,12 +152,21 @@
     <p>
       Furthermore - in my current role at Reason Studios I work as the fullstack
       web developer in the marketing team, in a company that is highly reliant
-      online advertising for revenue. This gives me unique insight into both the
-      Facebook and Google advertising ecosystem, as well as many other services
-      relied upon by modern e-commerce companies. Additionally, a large part of
-      my working life I have spent as a consultant, giving me plenty of
-      experience of productive and professional experience when working together
-      with or embedded in a client organization.
+      on online advertising for revenue. This gives me unique insights into both
+      the Facebook and Google advertising ecosystem, as well as many other
+      services employed by modern e-commerce companies.
+    </p>
+    <p>
+      Additionally, a large part of my working life I have spent as a
+      consultant, giving me plenty of experience of productive and professional
+      experience when working together with or embedded in a client
+      organization.
+    </p>
+    <p>
+      I am a social person and thrive in a strong team, but I am also full of
+      initiative and drive – I will quickly learn new processes, environments
+      and technologies on my own. Regardless of project, I always carry a
+      professional attitude and clear focus on delivering results.
     </p>
   </div>
 

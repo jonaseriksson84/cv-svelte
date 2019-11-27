@@ -346,7 +346,7 @@
 
 <div class="cv">
 
-  <div class="name">
+  <div class="name" style="margin-bottom: 130px;">
 
     <div class="img">
       <img {src} alt="Jonas" />
