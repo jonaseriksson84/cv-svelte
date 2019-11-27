@@ -29,7 +29,7 @@
     },
     {
       heading: "Version handling & CM",
-      words: ["Git", "CVS", "SVN", "JIRA", "TFS"]
+      words: ["Git", "CVS", "SVN", "Confluence", "JIRA", "TFS"]
     },
     {
       heading: "Other",
@@ -158,12 +158,6 @@
       my working life I have spent as a consultant, giving me plenty of
       experience of productive and professional experience when working together
       with or embedded in a client organization.
-    </p>
-    <p>
-      I am a social person and thrive in a strong team, but I am also full of
-      initiative and drive – I will quickly learn new processes, environments
-      and technologies on my own. Regardless of project, I always carry a
-      professional attitude and clear focus on delivering results.
     </p>
   </div>
 
