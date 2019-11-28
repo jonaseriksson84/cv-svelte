@@ -354,8 +354,7 @@
     <div class="rest">
 
       <p>Hi, my name is</p>
-      <h1 style="color: black;">Jonas Eriksson</h1>
-      <h2 style="text-align: center;" />
+      <h1>Jonas Eriksson</h1>
       <p>
         ... and I am a
         <strong>FULLSTACK WEB DEVELOPER</strong>
