@@ -12,7 +12,7 @@
       from: "October 2017",
       to: "present",
       description: [
-        "<p>Jonas currently works as a the lead fullstack web developer in the Sales & Marcom department of Reason Studios (formerly Propellerhead Software)</p>",
+        "<p>I currently work as a the lead fullstack web developer in the Sales & Marcom department of Reason Studios (formerly Propellerhead Software)</p>",
         "<ul><li>Quickly got up to speed in new languages for the position - Python & Django.</li><li>Technical responsibility for web shop generating 75% of the yearly $120M revenue</li><li>True full stack development all the way from database to React frontend.</li><li>Extensively involved in infrastructure and devops.</li></ul>"
       ],
       words: [
@@ -56,7 +56,7 @@
       from: "June 2016",
       to: "October 2017",
       description: [
-        "<p>Jonas was the lead frontend developer for internal tools ported from COBOL systems to modern web-based applications. In addition to frontend development Jonas has also done significant backend development.",
+        "<p>I was the lead frontend developer for internal tools ported from COBOL systems to modern web-based applications. In addition to frontend development I also did significant backend development.",
         "<ul><li>Delivered two applications into production far ahead of schedule</li><li>Introduced frontend build systems and frontend testing into the team.</li></ul>"
       ],
       words: [
@@ -82,7 +82,7 @@
       from: "October 2014",
       to: "June 2016",
       description: [
-        "<p>For the most part Jonas worked as solo or primary front end developer. In addition to implementation, Jonas has also had extensive input on UX elements and design. Moreover, Jonas has been responsible for introducting many new APIs and technologies such as the Sharepoint API, Microsoft ADAL.js and Microsoft Graph API to the organization.</p>",
+        "<p>For the most part I worked as solo or primary front end developer. In addition to implementation, I also had extensive input on UX elements and design. Moreover, I was responsible for introducting many new APIs and technologies such as the Sharepoint API, Microsoft ADAL.js and Microsoft Graph API to the organization.</p>",
         "<ul><li>New Intranet based on Sharepoint REST API and AngularJS frontend. Starting point for 1 100 employees and 70 000 visits per month.</li><li>Campaign portal celebrating the client's 20-year anniversary.</li><li>Modern responsive portals for project reporting used by in-field technicians and PMs/administrators.</li><li>Performance and UX improvements for time reporting portal.</li></ul>"
       ],
       words: [
@@ -130,7 +130,7 @@
       from: "February 2012",
       to: "August 2014",
       description: [
-        '<p>Jonas joined this project as a fresh graduate and within a year had advanced to main developer of the Java-based applications. He was also assigned to the "core" team consisting of 7 consultants out of the 25 employee strong team.</p>',
+        '<p>I joined this project as a fresh graduate and within a year advanced to main developer of the Java-based applications. I was also assigned to the "core" team consisting of 7 consultants out of the 25 employee strong team.</p>',
         "<ul><li>Estimation, analysis, debugging, documentation for incidents and change requests.</li><li>Held various project management duties; time-plans, team briefings and client meetings</li><li>Co-responsible for review of new hires, including training and code reviews.</li></ul>"
       ],
       words: [
@@ -175,7 +175,7 @@
       from: "August 2011",
       to: "December 2011",
       description: [
-        "<p>Jonas wrote his Master’s Thesis for the Linköping-based software company Configura. Configura develops 3D software used for space-planning and layouts in rooms and industrial environments. Jonas quickly learned the various advantages and problem areas of the software and development processes. The finished thesis contained both an analysis of the current situation as well as suggestions for future improvements.</p>"
+        "<p>I wrote my Master’s Thesis for the Linköping-based software company Configura. Configura develops 3D software used for space-planning and layouts in rooms and industrial environments. I quickly learned the various advantages and problem areas of the software and development processes. The finished thesis contained both an analysis of the current situation as well as suggestions for future improvements.</p>"
       ]
     }
   ];
@@ -268,6 +268,10 @@
       text-align: right;
     }
 
+    .bottom-thing {
+      margin: 20px auto;
+    }
+
     @media screen and (min-width: 500px) {
       display: flex;
       flex-wrap: wrap;
@@ -309,7 +313,15 @@
         }
       }
     }
+
     @media print {
+      img {
+        border-radius: 50%;
+        display: none !important;
+        margin: 0 auto;
+        margin: 25px auto;
+      }
+
       p {
         text-align: left;
         &:nth-of-type(2) {
@@ -322,6 +334,10 @@
       }
 
       .name p {
+        display: none;
+      }
+
+      .bottom-thing {
         display: none;
       }
     }
@@ -338,7 +354,8 @@
     <div class="rest">
 
       <p>Hi, my name is</p>
-      <h1>Jonas Eriksson</h1>
+      <h1 style="color: black;">Jonas Eriksson</h1>
+      <h2 style="text-align: center;" />
       <p>
         ... and I am a
         <strong>FULLSTACK WEB DEVELOPER</strong>
@@ -370,10 +387,10 @@
     {/each}
   </main>
 
-  <div style="margin: 20px auto;">
+  <div class="bottom-thing">
     <hr />
     This site is built with
     <a href="https://www.svelte.dev">Svelte</a>
-    because I think it's pretty cool.
+    &ndash; because I think it's pretty cool.
   </div>
 </div>

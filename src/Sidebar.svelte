@@ -29,7 +29,7 @@
     },
     {
       heading: "Version handling & CM",
-      words: ["Git", "CVS", "SVN", "JIRA", "TFS"]
+      words: ["Git", "CVS", "SVN", "Confluence", "JIRA", "TFS"]
     },
     {
       heading: "Other",
@@ -79,9 +79,14 @@
 
       .fa {
         width: 15px;
-        margin-left: 15px;
+        margin-right: 15px;
         color: red;
         font-size: 1.25rem;
+
+        &.fa-map-marker {
+          margin-left: 2px;
+          margin-right: 13px;
+        }
       }
     }
 
@@ -89,34 +94,40 @@
       .contact-block {
         text-align: left;
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
       }
 
       h2 {
         text-align: left;
+      }
+
+      div.block-thing {
+        flex: 0 50%;
       }
     }
   }
 </style>
 
 <aside>
-
+  <h2>CONTACT</h2>
   <div class="contact-block">
-    <h2>CONTACT</h2>
+
     <p>
-      070 420 01 75
       <i class="fa fa-phone" />
+      070 420 01 75
     </p>
     <p>
-      Havsörnsvägen 85, 123 53 Farsta
       <i class="fa fa-map-marker" />
+      Havsörnsvägen 85, 123 53 Farsta
     </p>
     <p>
-      jonaseriksson84@gmail.com
       <i class="fa fa-envelope" />
+      jonaseriksson84@gmail.com
     </p>
     <p>
-      www.mynameisjonas.dev
       <i class="fa fa-globe" />
+      www.mynameisjonas.dev
     </p>
   </div>
 
@@ -125,16 +136,16 @@
   <div class="about">
     <h2>PROFILE</h2>
     <p>
-      Jonas is a fullstack web developer with 7 years of professional
-      experience. He particularly enjoys doing frontend development and
-      JavaScript, though comfortable with backend and API development as well.
+      I am a fullstack web developer with 7 years of professional experience. I
+      particularly enjoy doing frontend development and JavaScript, though also
+      comfortable with backend and API development in a number of languages such
+      as Python, Java and server-side JavaScript.
     </p>
     <p>
-      Jonas is a social person who thrives in a strong team, but he is also full
-      of initiative and drive – and will quickly learn new processes,
-      environments and technologies on his own. Regardless of project, Jonas
-      always has a professional attitude and a clear focus on delivering
-      results.
+      I am a social person and thrive in a strong team, but I am also full of
+      initiative and drive – I will quickly learn new processes, environments
+      and technologies on my own. Regardless of project, I always carry a
+      professional attitude and clear focus on delivering results.
     </p>
   </div>
 

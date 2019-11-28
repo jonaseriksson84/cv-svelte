@@ -4,7 +4,10 @@
 </script>
 
 <style type="text/scss">
-
+  p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
 </style>
 
 <p>

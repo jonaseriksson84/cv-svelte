@@ -61,7 +61,6 @@
   </strong>
   / {company}
   <em class="dates">{from} &mdash; {to}</em>
-  <p>&nbsp;</p>
   {#each description as desc}
     {@html desc}
   {/each}
