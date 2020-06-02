@@ -13,7 +13,7 @@
       to: "present",
       description: [
         "<p>I currently work as a the lead fullstack web developer in the Sales & Marcom department of Reason Studios (formerly Propellerhead Software)</p>",
-        "<ul><li>Quickly got up to speed in new languages for the position - Python & Django.</li><li>Technical responsibility for web shop generating 75% of the yearly $120M revenue</li><li>True full stack development all the way from database to React frontend.</li><li>Extensively involved in infrastructure and devops.</li></ul>"
+        "<ul><li>Quickly got up to speed in new languages for the position - Python & Django.</li><li>Technical responsibility for web shop generating 75% of the yearly revenue</li><li>True full stack development all the way from database to React frontend.</li><li>Extensively involved in infrastructure and devops.</li></ul>"
       ],
       words: [
         "React",
