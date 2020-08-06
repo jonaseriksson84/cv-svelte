@@ -107,7 +107,6 @@
 </style>
 
 <aside>
-  <h2>CONTACT</h2>
   <div class="contact-block">
 
     <p>
@@ -131,7 +130,6 @@
   <div class="divider" />
 
   <div class="about">
-    <h2>PROFILE</h2>
     <p>
       I am a fullstack web developer with 7 years of professional experience. I
       particularly enjoy doing frontend development and JavaScript, though also
@@ -154,14 +152,17 @@
     {/each}
   </div>
   <div class="divider" />
-  <div style="text-align: center;">
-    <strong>Swedish & English:</strong>
+  <div>
+    <strong>Swedish:</strong>
+    Native
     <br />
-    Native / Fluent
+    <strong>English:</strong>
+    Fluent
     <br />
+    <strong>German:</strong>
+    Basic proficiency
     <br />
-    <strong>German & Japanese:</strong>
-    <br />
+    <strong>Japanese:</strong>
     Basic proficiency
   </div>
 </aside>
