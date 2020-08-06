@@ -96,10 +96,10 @@
       }
 
       .contact-block {
-        text-align: right;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+        text-align: center;
+        p {
+          display: block;
+        }
       }
 
       h2 {
