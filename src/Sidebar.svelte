@@ -41,11 +41,9 @@
         "GraphQL",
         "Jenkins",
         "Linux",
-        "Project Management",
         "REST",
         "Scrum",
-        "Vagrant",
-        "Web Design"
+        "Vagrant"
       ]
     }
   ];
@@ -88,8 +86,17 @@
     }
 
     @media print {
+      .language {
+        display: none;
+      }
+      .buzzwords {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
       .contact-block {
-        text-align: left;
+        text-align: right;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -131,7 +138,7 @@
 
   <div class="about">
     <p>
-      I am a fullstack web developer with 7 years of professional experience. I
+      I am a fullstack web developer with 8+ years of professional experience. I
       particularly enjoy doing frontend development and JavaScript, though also
       comfortable with backend and API development in a number of languages such
       as Python, Java and server-side JavaScript.
@@ -152,7 +159,7 @@
     {/each}
   </div>
   <div class="divider" />
-  <div>
+  <div class="language">
     <strong>Swedish:</strong>
     Native
     <br />

@@ -9,9 +9,15 @@
     margin-bottom: 10px;
     text-align: left;
   }
+  @media print {
+    p {
+      width: calc(33% - 30px);
+      margin: 15px;
+    }
+  }
 </style>
 
-<p>
+<p class="buzz-word">
   <strong>{heading}:</strong>
   <br />
   {words.join(', ')}

@@ -142,7 +142,7 @@
         0 15px 12px rgba(0, 0, 0, 0.22);
     }
 
-    // background: url("static/ivory-paper.jpg");
+    background: url("static/ivory-paper.jpg");
     position: relative;
     z-index: 0;
 
@@ -224,6 +224,7 @@
     }
 
     @media print {
+      //background: none;
       img {
         border-radius: 50%;
         display: none !important;
