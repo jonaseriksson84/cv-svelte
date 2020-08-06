@@ -7,10 +7,14 @@
   p {
     margin-top: 0;
     margin-bottom: 10px;
+    text-align: center;
   }
 </style>
 
 <p>
   <strong>{heading}:</strong>
-  {words.join(', ')}
+  {#each words as word, i}
+    <br />
+    {word}
+  {/each}
 </p>

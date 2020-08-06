@@ -7,187 +7,116 @@
 
   const experiences = [
     {
-      title: "FULLSTACK WEB DEVELOPER",
+      title: "FULLSTACK DEVELOPER",
       company: "Reason Studios",
       from: "October 2017",
       to: "present",
       description: [
-        "<p>I currently work as a the lead fullstack web developer in the Sales & Marcom department of Reason Studios (formerly Propellerhead Software)</p>",
-        "<ul><li>Quickly got up to speed in new languages for the position - Python & Django.</li><li>Technical responsibility for web shop generating 75% of the yearly revenue</li><li>True full stack development all the way from database to React frontend.</li><li>Extensively involved in infrastructure and devops.</li></ul>"
+        "<ul><li>Quickly got up to speed in new languages for the position - Python & Django</li><li>Deeply involved in infrastructure and devops including build systems and servers/AWS</li><li>Technical responsibility for the web shop, which generates 75% of the companies revenue</li><li>Technical responsibility for authentication and the license system of the companies main products</li><li>True full stack development all the way from databases, APIs, microservices and frontend</li><li>Serving thousands of daily end users with always available systems</li></ul>"
       ],
       words: [
-        "React",
-        "Django",
-        "jQuery",
-        "JavaScript",
-        "Python",
-        "HTML5",
-        "CSS3",
-        "SCSS",
-        "Java",
-        "SQL",
-        "Jinja2",
-        "postgres",
-        "MySQL",
-        "Webpack",
-        "pytest",
-        "Git",
-        "JIRA",
-        "AWS",
         "Ansible",
-        "Vagrant",
+        "AWS",
+        "CSS3",
+        "Django",
+        "Docker",
+        "Electron",
+        "Git",
+        "HTML5",
+        "Java",
+        "JavaScript",
         "Jenkins",
+        "Jinja2",
+        "JIRA",
         "Linux",
+        "MySQL",
+        "postgres",
+        "Python",
+        "React",
+        "REST",
+        "SQL",
+        "Vagrant"
+      ]
+    },
+    {
+      title: "FULLSTACK DEVELOPER (consultant)",
+      company: "Swedish Police (via HiQ)",
+      from: "June 2016",
+      to: "October 2017",
+      description: [
+        "<ul><li>Primary frontend developer in project porting COBOL to modern web-based applications.</li><li>Also involved in significant Java backend development.</li><li>Delivered two of these applications far ahead of schedule</li><li>Introduced frontend build systems and testing to the team.</li></ul>"
+      ],
+      words: [
+        "AngularJS",
+        "CSS3",
+        "Git",
+        "HTML5",
+        "Jasmine",
+        "Java",
+        "JavaScript",
+        "LESS",
+        "Maven",
         "REST"
       ]
     },
     {
-      title: "CONSULTANT",
-      company: "HiQ",
-      from: "August 2014",
-      to: "October 2017",
-      description: [
-        "<p>Worked as a consultant in primarily frontend positions in the organizations listed below.</p>"
-      ]
-    },
-    {
-      title: "FULLSTACK DEVELOPER",
-      company: "Swedish Police",
-      from: "June 2016",
-      to: "October 2017",
-      description: [
-        "<p>I was the lead frontend developer for internal tools ported from COBOL systems to modern web-based applications. In addition to frontend development I also did significant backend development.",
-        "<ul><li>Delivered two applications into production far ahead of schedule</li><li>Introduced frontend build systems and frontend testing into the team.</li></ul>"
-      ],
-      words: [
-        "AngularJS",
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "LESS",
-        "Java",
-        "JBoss",
-        "Git",
-        "REST",
-        "Swagger",
-        "Gulp",
-        "Karma",
-        "Jasmine",
-        "Maven"
-      ]
-    },
-    {
-      title: "FRONTEND DEVELOPER",
-      company: "Midroc",
+      title: "FRONTEND DEVELOPER (consultant)",
+      company: "Midroc (via HiQ)",
       from: "October 2014",
       to: "June 2016",
       description: [
-        "<p>For the most part I worked as solo or primary front end developer. In addition to implementation, I also had extensive input on UX elements and design. Moreover, I was responsible for introducting many new APIs and technologies such as the Sharepoint API, Microsoft ADAL.js and Microsoft Graph API to the organization.</p>",
-        "<ul><li>New Intranet based on Sharepoint REST API and AngularJS frontend. Starting point for 1 100 employees and 70 000 visits per month.</li><li>Campaign portal celebrating the client's 20-year anniversary.</li><li>Modern responsive portals for project reporting used by in-field technicians and PMs/administrators.</li><li>Performance and UX improvements for time reporting portal.</li></ul>"
+        "<ul><li>Lead frontend developer in multiple projects, with big impact on UX and design decisions</li><li>Introduced many new technologies including AngularJS, Sharepoint APIs and Microsoft Graph</li><li>Developed new intranet - starting point for 1100 employees and 70 000+ views per month</li><li>Various other projects, including portals for project planning and time reporting</li></ul>"
       ],
       words: [
         "AngularJS",
-        "Azure AD",
-        "Bower",
-        "CAML",
+        "Azure",
         "CSS3",
         "Git",
-        "Git-TF",
-        "GruntJS",
         "HTML5",
         "Jasmine",
         "JavaScript",
-        "jQuery",
-        "Karma",
-        "LESS",
-        "Microsoft ADAL.js",
         "Microsoft Graph API",
         "Node",
         "npm",
         "OAuth2",
         "REST",
-        "SASS",
         "SCRUM",
         "Sharepoint Online",
-        "Sharepoint REST API",
         "TFS",
-        "Yammer",
-        "Yeoman"
+        "Yammer"
       ]
     },
     {
-      title: "CONSULTANT",
-      company: "Capgemini",
+      title: "JAVA DEVELOPER (consultant)",
+      company: "Euroclear (via Capgemini)",
       from: "February 2012",
       to: "August 2014",
       description: [
-        "<p>Worked as a consultant in the projects listed below.</p>"
-      ]
-    },
-    {
-      title: "JAVA DEVELOPER",
-      company: "VPC / Euroclear",
-      from: "February 2012",
-      to: "August 2014",
-      description: [
-        '<p>I joined this project as a fresh graduate and within a year advanced to main developer of the Java-based applications. I was also assigned to the "core" team consisting of 7 consultants out of the 25 employee strong team.</p>',
-        "<ul><li>Estimation, analysis, debugging, documentation for incidents and change requests.</li><li>Held various project management duties; time-plans, team briefings and client meetings</li><li>Co-responsible for review of new hires, including training and code reviews.</li></ul>"
+        "<ul><li>Advanced from graduate to lead developer of the projects Java services within the first year</li><li>Chosen to the 7 strong <em>core team</em> out of 25 total</li><li>Responsible for estimation, analysis, bugfixing and documentation of invidents and change requests</li><li>Project leader responsibilites for time plans, team briefings and client meetings</li><li>Shared responisibility for new hires, including interviews, training and core reviews</li></ul>"
       ],
       words: [
-        "Apache ANT",
-        "Apache Commons",
-        "Apache POI",
         "Apache Tomcat",
         "CSS",
         "CVS",
-        "DB2 SQL",
-        "Efecte",
+        "DB2",
         "HTML",
-        "IBM Message Broker",
-        "IBM Tivoli Access Manager",
-        "WebSEAL",
-        "iText",
-        "Java",
-        "Java EE",
-        "Java Server Faces",
-        "JavaMail",
+        "Java/Java EE",
         "JavaScript",
         "JIRA",
-        "JMS",
-        "LDAP",
-        "MyFaces",
-        "Spring",
-        "WebSphere Application Server"
-      ]
-    },
-    {
-      title: "PROJECT MANAGER",
-      company: "Capgemini",
-      from: "December 2012",
-      to: "August 2014",
-      description: [
-        "<p>Planning, executing and reviewing a successful and highly appreciated customer event consisting of three camps throughout each year for clients and fellow employees.</p><p>Responsibility for annual budget of SEK 150 000 with an audience of CxO level participants.</p>"
-      ]
-    },
-    {
-      title: "MASTER'S THESIS",
-      company: "Configura",
-      from: "August 2011",
-      to: "December 2011",
-      description: [
-        "<p>I wrote my Master’s Thesis for the Linköping-based software company Configura. Configura develops 3D software used for space-planning and layouts in rooms and industrial environments. I quickly learned the various advantages and problem areas of the software and development processes. The finished thesis contained both an analysis of the current situation as well as suggestions for future improvements.</p>"
+        "Spring"
       ]
     }
   ];
 
   const educations = [
     {
-      title: "M.Sc. Industrial Engineering and Management (Intl, Japanese)",
+      title:
+        "M.Sc. Industrial Engineering and Management (Inernational, Japanese)",
       school: "The Institute of Technology at Linköping University",
-      from: "2006",
+      from: "2005",
       to: "2011",
       description: [
-        "<ul><li>Computer Science, which entails courses in programming (Java, Python, SQL and more), computer architecture as well as larger project-based advanced software engineering courses.</li><li>Industrial Marketing, focusing on the marketing function, and strategic management and positioning.</li></ul>"
+        "<ul><li>Computer science - programming, computer architecture, larger project based software engineering courses.</li><li>Industrial Marketing - project management, strategic mangagement and positioning.</li><li>Preceeded by one year of Japanese courses</li></ul>"
       ]
     },
     {
@@ -198,22 +127,6 @@
       description: [
         "<p>Exchange student programme as part of the masters degree. All courses were given in Japanese, and consisted of business and management courses.</p>"
       ]
-    },
-    {
-      title: "Foundation year in Japanology",
-      school: "The Institute of Technology at Linköping University",
-      from: "2005",
-      to: "2006",
-      description: [
-        "<p>Preparation for International Programme - Japanese language studies, and to a lesser extent courses on Japanese culture and society.</p>"
-      ]
-    },
-    {
-      title: "High School - Natural Science Programme",
-      school: "Stångådalens Gymnasium, Vimmerby",
-      from: "2000",
-      to: "2003",
-      description: [""]
     }
   ];
 </script>
@@ -265,7 +178,7 @@
     }
 
     h2 {
-      text-align: right;
+      text-align: left;
     }
 
     .bottom-thing {
@@ -306,10 +219,6 @@
           &:nth-of-type(2) {
             text-align: right;
           }
-        }
-
-        h2 {
-          margin-top: 90px;
         }
       }
     }

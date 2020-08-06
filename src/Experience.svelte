@@ -55,10 +55,7 @@
 </style>
 
 <div>
-  <strong class="title">
-    <i class="fa fa-circle" />
-    {title}
-  </strong>
+  <strong class="title">{title}</strong>
   / {company}
   <em class="dates">{from} &mdash; {to}</em>
   {#each description as desc}

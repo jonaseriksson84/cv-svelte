@@ -12,19 +12,20 @@
     },
     {
       heading: "Databases",
-      words: ["postgres, MySQL, DB2"]
+      words: ["postgres", "MySQL", "DB2"]
     },
     {
       heading: "Tooling",
       words: [
-        "Webpack",
-        "Rollup",
-        "Gulp",
         "Grunt",
-        "Yarn",
-        "Karma",
+        "Gulp",
         "Jasmine",
-        "pytest"
+        "Karma",
+        "npm",
+        "pytest",
+        "Rollup",
+        "Webpack",
+        "Yarn"
       ]
     },
     {
@@ -36,14 +37,15 @@
       words: [
         "Amazon Web Services (AWS)",
         "Ansible",
-        "Vagrant",
+        "Docker",
+        "GraphQL",
         "Jenkins",
         "Linux",
+        "Project Management",
         "REST",
-        "GraphQL",
         "Scrum",
-        "Web Design",
-        "Project Management"
+        "Vagrant",
+        "Web Design"
       ]
     }
   ];
@@ -61,12 +63,12 @@
       margin: 0 auto;
       background-color: #4d4d4f;
       height: 2px;
-      width: 75%;
-      margin-top: 25px;
+      width: 100%;
+      margin: 25px 0;
     }
 
     h2 {
-      text-align: right;
+      text-align: left;
     }
 
     .about p {
@@ -74,19 +76,14 @@
     }
 
     .contact-block {
-      text-align: right;
+      text-align: left;
       width: 100%;
 
       .fa {
         width: 15px;
-        margin-right: 15px;
+        margin-right: 5px;
         color: red;
         font-size: 1.25rem;
-
-        &.fa-map-marker {
-          margin-left: 2px;
-          margin-right: 13px;
-        }
       }
     }
 
@@ -152,9 +149,19 @@
   <div class="divider" />
 
   <div class="buzzwords">
-    <h2>SKILLS</h2>
     {#each buzzwords as buzzword}
       <Buzzword heading={buzzword.heading} words={buzzword.words} />
     {/each}
+  </div>
+  <div class="divider" />
+  <div style="text-align: center;">
+    <strong>Swedish & English:</strong>
+    <br />
+    Native / Fluent
+    <br />
+    <br />
+    <strong>German & Japanese:</strong>
+    <br />
+    Basic proficiency
   </div>
 </aside>
