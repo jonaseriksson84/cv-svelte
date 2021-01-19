@@ -9,16 +9,7 @@
 <style type="text/scss">
   div {
     position: relative;
-    margin-bottom: 60px;
-
-    .fa-circle {
-      position: absolute;
-      left: -15px;
-      top: 5px;
-      font-size: 0.5rem;
-      vertical-align: middle;
-      margin-right: 15px;
-    }
+    margin-bottom: 30px;
 
     strong.title {
       margin-bottom: 5px;

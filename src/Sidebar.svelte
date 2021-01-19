@@ -4,7 +4,7 @@
   const buzzwords = [
     {
       heading: "Frameworks",
-      words: ["React", "Svelte", "AngularJS", "Django", "Node", "jQuery"]
+      words: ["React", "Svelte", "AngularJS", "Django", "Node"]
     },
     {
       heading: "Languages",
@@ -30,7 +30,7 @@
     },
     {
       heading: "Version handling & CM",
-      words: ["Git", "CVS", "SVN", "Confluence", "JIRA", "TFS"]
+      words: ["Git", "CVS", "SVN", "Confluence", "JIRA"]
     },
     {
       heading: "Other",
@@ -50,9 +50,7 @@
 
 <style type="text/scss">
   aside {
-    @media screen and (min-width: 500px) {
-      max-width: 25%;
-    }
+    max-width: 25%;
     padding: 0 15px;
 
     .divider {
@@ -73,40 +71,24 @@
     }
 
     .contact-block {
-      text-align: left;
-      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
 
-      .fa {
-        width: 15px;
-        margin-right: 5px;
-        color: red;
-        font-size: 1.25rem;
-      }
-    }
-
-    @media print {
-      .language {
-        display: none;
-      }
-      .buzzwords {
+      .icon {
+        margin-top: 20px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-      }
 
-      .contact-block {
-        text-align: center;
-        p {
+        span {
           display: block;
         }
       }
 
-      h2 {
-        text-align: left;
-      }
-
-      div.block-thing {
-        flex: 0 50%;
+      .fa {
+        width: 40px;
+        text-align: center;
+        color: red;
+        font-size: 1.25rem;
       }
     }
   }
@@ -114,23 +96,25 @@
 
 <aside>
   <div class="contact-block">
-
-    <p>
+    <div class="icon">
       <i class="fa fa-phone" />
-      070 420 01 75
-    </p>
-    <p>
-      <i class="fa fa-map-marker" />
-      Havsörnsvägen 85, 123 53 Farsta
-    </p>
-    <p>
+      <div>070 420 01 75</div>
+    </div>
+    <div class="icon">
       <i class="fa fa-envelope" />
       jonaseriksson84@gmail.com
-    </p>
-    <p>
+    </div>
+    <div class="icon">
+      <i class="fa fa-map-marker" />
+      <div>
+        <span>Bryggvägen 6B</span>
+        <span>117 71 Stockholm</span>
+      </div>
+    </div>
+    <div class="icon">
       <i class="fa fa-globe" />
       www.mynameisjonas.dev
-    </p>
+    </div>
   </div>
 
   <div class="divider" />

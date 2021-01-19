@@ -21,14 +21,6 @@
         </ul>`
     },
     {
-      title: "-- IT CONSULTANT",
-      company: "HiQ",
-      from: "August 2014",
-      to: "October 2016",
-      description:
-        "<p>Worked as a consultant with the projects listed below</p>"
-    },
-    {
       title: "FULLSTACK DEVELOPER (consultant)",
       company: "Swedish Police (via HiQ)",
       from: "June 2016",
@@ -53,13 +45,13 @@
           <li>Various other projects, including portals for project planning and time reporting</li>
         </ul>`
     },
-    {
-      title: "-- IT CONSULTANT",
-      company: "Capgemini",
-      from: "February 2012",
-      to: "August 2014",
-      description: "<p>Worked as a consultant with the project listed below</p>"
-    },
+    // {
+    //   title: "-- IT CONSULTANT --",
+    //   company: "Capgemini",
+    //   from: "February 2012",
+    //   to: "August 2014",
+    //   description: "<p>Worked as a consultant with the project listed below</p>"
+    // },
     {
       title: "JAVA DEVELOPER (consultant)",
       company: "Euroclear (via Capgemini)",
@@ -101,17 +93,26 @@
 </script>
 
 <style type="text/scss">
+  @page {
+    size: auto;
+    margin: 0;
+  }
+
+  body {
+    /* this affects the margin on the content before sending to printer */
+    margin: 0px;
+  }
+
   .cv {
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: #e6e6e8;
+    background-size: contain;
     @media screen {
-      max-width: 1200px;
-      margin: 0px auto;
-      background-color: #e6e6e8;
-      background-size: contain;
       box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
         0 15px 12px rgba(0, 0, 0, 0.22);
+      background: url("static/ivory-paper.jpg");
     }
-
-    background: url("static/ivory-paper.jpg");
     position: relative;
     z-index: 0;
     padding-bottom: 50px;
@@ -133,7 +134,7 @@
 
       p {
         text-align: center;
-        margin: 25px 50px;
+        margin: 25px 25px;
       }
 
       h1 {
@@ -155,70 +156,60 @@
       margin: 20px auto;
     }
 
-    @media screen and (min-width: 500px) {
-      display: flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 
-      main {
-        width: 65%;
-      }
-
-      .name {
-        width: 100%;
-        color: #e6e6e8;
-        z-index: 3;
-
-        div.img {
-          width: 25%;
-          float: left;
-        }
-
-        div.rest {
-          width: 75%;
-          float: left;
-        }
-
-        h1 {
-          font-size: 5rem;
-          margin: 0;
-          text-align: center;
-        }
-
-        p {
-          text-align: left;
-          &:nth-of-type(2) {
-            text-align: right;
-          }
-        }
-      }
+    main {
+      width: 65%;
     }
 
-    @media print {
-      //background: none;
-      img {
-        border-radius: 50%;
-        display: none !important;
-        margin: 0 auto;
-        margin: 25px auto;
+    .name {
+      width: 100%;
+      color: #e6e6e8;
+      z-index: 3;
+
+      div.img {
+        width: 25%;
+        float: left;
+      }
+
+      div.rest {
+        width: 75%;
+        float: left;
+      }
+
+      h1 {
+        font-size: 5rem;
+        margin: 0;
+        text-align: center;
       }
 
       p {
         text-align: left;
         &:nth-of-type(2) {
-          text-align: left;
+          text-align: right;
         }
       }
-
-      h2 {
-        text-align: left;
+    }
+    @media print {
+      h1 {
+        size: 50%;
       }
-
-      .name p {
+      .screen-only {
         display: none;
       }
+      .name {
+        border-bottom: 2px solid grey;
+      }
 
-      .bottom-thing {
-        display: none;
+      img {
+        max-width: 100px;
+      }
+
+      .rest {
+        display: flex;
+        height: 100%;
+        align-items: center;
       }
     }
   }
@@ -232,10 +223,9 @@
       <img {src} alt="Jonas" />
     </div>
     <div class="rest">
-
-      <p>Hi, my name is</p>
+      <p class="screen-only">Hi, my name is</p>
       <h1>Jonas Eriksson</h1>
-      <p>
+      <p class="screen-only">
         ... and I am a
         <strong>FULLSTACK WEB DEVELOPER</strong>
       </p>
@@ -260,7 +250,7 @@
     {/each}
   </main>
 
-  <div class="bottom-thing">
+  <div class="bottom-thing screen-only">
     <hr />
     This site is built with
     <a href="https://www.svelte.dev">Svelte</a>
