@@ -11,122 +11,91 @@
       company: "Reason Studios",
       from: "October 2017",
       to: "present",
-      description: [
-        "<ul><li>Quickly got up to speed in new languages for the position - Python & Django</li><li>Deeply involved in infrastructure and devops including build systems and servers/AWS</li><li>Technical responsibility for the web shop, which generates 75% of the companies revenue</li><li>Technical responsibility for authentication and the license system of the companies main products</li><li>True full stack development all the way from databases, APIs, microservices and frontend</li><li>Serving thousands of daily end users with always available systems</li></ul>"
-      ],
-      words: [
-        "Ansible",
-        "AWS",
-        "CSS3",
-        "Django",
-        "Docker",
-        "Electron",
-        "Git",
-        "HTML5",
-        "Java",
-        "JavaScript",
-        "Jenkins",
-        "Jinja2",
-        "JIRA",
-        "Linux",
-        "MySQL",
-        "postgres",
-        "Python",
-        "React",
-        "REST",
-        "SQL",
-        "Vagrant"
-      ]
+      description: `<ul>
+          <li>Quickly got up to speed in new languages for the position - Python & Django WOHOO</li>
+          <li>Heavily involved in infrastructure and devops including build systems and servers/AWS</li>
+          <li>Technical responsibility for the web shop, which generates 75% of the companies revenue</li>
+          <li>Technical responsibility for authentication and the license system of the companies main products</li>
+          <li>True full stack development from databases via APIs and microservices to frontend</li>
+          <li>Serving 10 000+ daily end users with always available systems</li>
+        </ul>`
+    },
+    {
+      title: "-- IT CONSULTANT",
+      company: "HiQ",
+      from: "August 2014",
+      to: "October 2016",
+      description:
+        "<p>Worked as a consultant with the projects listed below</p>"
     },
     {
       title: "FULLSTACK DEVELOPER (consultant)",
       company: "Swedish Police (via HiQ)",
       from: "June 2016",
       to: "October 2017",
-      description: [
-        "<ul><li>Primary frontend developer in project porting COBOL to modern web-based applications.</li><li>Also involved in significant Java backend development.</li><li>Delivered two of these applications far ahead of schedule</li><li>Introduced frontend build systems and testing to the team.</li></ul>"
-      ],
-      words: [
-        "AngularJS",
-        "CSS3",
-        "Git",
-        "HTML5",
-        "Jasmine",
-        "Java",
-        "JavaScript",
-        "LESS",
-        "Maven",
-        "REST"
-      ]
+      description: `<ul>
+          <li>Primary frontend developer porting COBOL systems to modern web-based applications</li>
+          <li>Significant Java backend development</li>
+          <li>Delivered applications far ahead of schedule</li>
+          <li>Introduced frontend build systems and testing to the team</li>
+        </ul>`
     },
     {
       title: "FRONTEND DEVELOPER (consultant)",
       company: "Midroc (via HiQ)",
       from: "October 2014",
       to: "June 2016",
-      description: [
-        "<ul><li>Lead frontend developer in multiple projects, with big impact on UX and design decisions</li><li>Introduced many new technologies including AngularJS, Sharepoint APIs and Microsoft Graph</li><li>Developed new intranet - starting point for 1100 employees and 70 000+ views per month</li><li>Various other projects, including portals for project planning and time reporting</li></ul>"
-      ],
-      words: [
-        "AngularJS",
-        "Azure",
-        "CSS3",
-        "Git",
-        "HTML5",
-        "Jasmine",
-        "JavaScript",
-        "Microsoft Graph API",
-        "Node",
-        "npm",
-        "OAuth2",
-        "REST",
-        "SCRUM",
-        "Sharepoint Online",
-        "TFS",
-        "Yammer"
-      ]
+      description: `<ul>
+          <li>Lead frontend developer in multiple projects</li>
+          <li>Big influence on UX and design decisions</li>
+          <li>Introduced many new technologies including AngularJS, Sharepoint APIs and Microsoft Graph</li>
+          <li>Developed new intranet - starting point for 1100 employees and 70 000+ views per month</li>
+          <li>Various other projects, including portals for project planning and time reporting</li>
+        </ul>`
+    },
+    {
+      title: "-- IT CONSULTANT",
+      company: "Capgemini",
+      from: "February 2012",
+      to: "August 2014",
+      description: "<p>Worked as a consultant with the project listed below</p>"
     },
     {
       title: "JAVA DEVELOPER (consultant)",
       company: "Euroclear (via Capgemini)",
       from: "February 2012",
       to: "August 2014",
-      description: [
-        "<ul><li>Advanced from graduate to lead developer of the projects Java services within the first year</li><li>Chosen to the 7 strong <em>core team</em> out of 25 total</li><li>Responsible for estimation, analysis, bugfixing and documentation of invidents and change requests</li><li>Project leader responsibilites for time plans, team briefings and client meetings</li><li>Shared responisibility for new hires, including interviews, training and core reviews</li></ul>"
-      ],
-      words: [
-        "Apache Tomcat",
-        "CSS",
-        "CVS",
-        "DB2",
-        "HTML",
-        "Java/Java EE",
-        "JavaScript",
-        "JIRA",
-        "Spring"
-      ]
+      description: `<ul>
+          <li>Advanced from graduate to lead developer of the projects Java services within the first year</li>
+          <li>Chosen to the 7 strong <em>core team</em> out of 25 total</li>
+          <li>Responsible for estimation, analysis, bugfixing and documentation of invidents and change requests</li>
+          <li>Project leader responsibilites for time plans, team briefings and client meetings</li>
+          <li>Shared responisibility for new hires, including interviews, training and core reviews</li>
+        </ul>`
     }
   ];
 
   const educations = [
     {
       title:
-        "M.Sc. Industrial Engineering and Management (Inernational, Japanese)",
+        "M.Sc. Industrial Engineering and Management (International, Japanese)",
       school: "The Institute of Technology at Linköping University",
       from: "2005",
       to: "2011",
-      description: [
-        "<ul><li>Computer science - programming, computer architecture, larger project based software engineering courses.</li><li>Industrial Marketing - project management, strategic mangagement and positioning.</li><li>Preceeded by one year of Japanese courses</li></ul>"
-      ]
+      description: `<ul>
+          <li>Computer science - programming, computer architecture, larger project based software engineering courses.</li>
+          <li>Industrial Marketing - project management, strategic mangagement and positioning.</li>
+          <li>Preceeded by one year of Japanese courses</li>
+        </ul>`
     },
     {
       title: "Exchange Studies",
       school: "明治大学 / Meiji University, Tokyo",
       from: "2008",
       to: "2009",
-      description: [
-        "<p>Exchange student programme as part of the masters degree. All courses were given in Japanese, and consisted of business and management courses.</p>"
-      ]
+      description: `
+        <p>Exchange student programme as part of the masters degree. All courses were given in Japanese, and consisted of business and management courses.</p>
+      `
     }
   ];
 </script>
@@ -145,6 +114,7 @@
     background: url("static/ivory-paper.jpg");
     position: relative;
     z-index: 0;
+    padding-bottom: 50px;
 
     .name {
       min-width: 100%;
@@ -276,13 +246,7 @@
   <main>
     <h2>EXPERIENCE</h2>
     {#each experiences as exp}
-      <Experience
-        title={exp.title}
-        company={exp.company}
-        from={exp.from}
-        to={exp.to}
-        description={exp.description}
-        words={exp.words} />
+      <Experience {...exp} />
     {/each}
 
     <h2>EDUCATION</h2>

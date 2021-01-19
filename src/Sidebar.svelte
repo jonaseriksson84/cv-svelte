@@ -4,7 +4,7 @@
   const buzzwords = [
     {
       heading: "Frameworks",
-      words: ["React", "Svelte", "Vue", "AngularJS", "Django", "Node", "jQuery"]
+      words: ["React", "Svelte", "AngularJS", "Django", "Node", "jQuery"]
     },
     {
       heading: "Languages",
@@ -35,10 +35,9 @@
     {
       heading: "Other",
       words: [
-        "Amazon Web Services (AWS)",
+        "AWS",
         "Ansible",
         "Docker",
-        "GraphQL",
         "Jenkins",
         "Linux",
         "REST",
@@ -167,6 +166,9 @@
     Fluent
     <br />
     <strong>German:</strong>
+    Basic proficiency
+    <br />
+    <strong>Italian</strong>
     Basic proficiency
     <br />
     <strong>Japanese:</strong>

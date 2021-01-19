@@ -4,7 +4,6 @@
   export let from;
   export let to;
   export let description;
-  export let words;
 </script>
 
 <style type="text/scss">
@@ -27,11 +26,6 @@
 
     em {
       margin-bottom: 10px;
-    }
-
-    span.buzzwords {
-      margin-top: 15px;
-      display: block;
     }
 
     em.dates {
@@ -58,14 +52,5 @@
   <strong class="title">{title}</strong>
   / {company}
   <em class="dates">{from} &mdash; {to}</em>
-  {#each description as desc}
-    {@html desc}
-  {/each}
-  {#if words}
-    <span class="buzzwords">
-      <strong>Methods & tools:</strong>
-      <em>{words.join(', ')}</em>
-    </span>
-  {/if}
-
+  {@html description}
 </div>

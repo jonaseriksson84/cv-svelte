@@ -7,7 +7,7 @@
   p {
     margin-top: 0;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
   }
   @media print {
     p {

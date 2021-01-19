@@ -53,14 +53,9 @@
 </style>
 
 <div>
-  <strong class="title">
-    <i class="fa fa-circle" />
-    {title}
-  </strong>
+  <strong class="title">{title}</strong>
   <em class="dates">{from} &mdash; {to}</em>
   <span>{school}</span>
-  {#each description as desc}
-    {@html desc}
-  {/each}
+  {@html description}
 
 </div>
