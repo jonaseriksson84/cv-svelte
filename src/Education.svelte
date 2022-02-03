@@ -15,10 +15,6 @@
       margin-bottom: 5px;
     }
 
-    em {
-      margin-bottom: 10px;
-    }
-
     span {
       display: block;
     }

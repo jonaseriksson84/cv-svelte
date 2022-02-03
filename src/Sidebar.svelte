@@ -4,11 +4,11 @@
   const buzzwords = [
     {
       heading: "Frameworks",
-      words: ["React", "Svelte", "AngularJS", "Django", "Node"]
+      words: ["React", "Next.js", "Svelte", "Angular", "Django", "Node"]
     },
     {
       heading: "Languages",
-      words: ["JavaScript", "Python", "HTML5", "CSS3", "Java", "SQL", "Jinja2"]
+      words: ["JavaScript", "Python", "HTML5", "CSS3", "Java", "SQL"]
     },
     {
       heading: "Databases",
@@ -17,13 +17,10 @@
     {
       heading: "Tooling",
       words: [
-        "Grunt",
-        "Gulp",
-        "Jasmine",
-        "Karma",
+        "Jest",
         "npm",
         "pytest",
-        "Rollup",
+        "Terraform",
         "Webpack",
         "Yarn"
       ]
@@ -121,7 +118,7 @@
 
   <div class="about">
     <p>
-      I am a fullstack web developer with 8+ years of professional experience. I
+      I am a fullstack web developer with 10+ years of professional experience. I
       particularly enjoy doing frontend development and JavaScript, though also
       comfortable with backend and API development in a number of languages such
       as Python, Java and server-side JavaScript.

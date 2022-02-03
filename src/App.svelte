@@ -12,24 +12,24 @@
       from: "October 2017",
       to: "present",
       description: `<ul>
-          <li>Quickly got up to speed in new languages for the position - Python & Django WOHOO</li>
-          <li>Heavily involved in infrastructure and devops including build systems and servers/AWS</li>
-          <li>Technical responsibility for the web shop, which generates 75% of the companies revenue</li>
-          <li>Technical responsibility for authentication and the license system of the companies main products</li>
-          <li>True full stack development from databases via APIs and microservices to frontend</li>
-          <li>Serving 10 000+ daily end users with always available systems</li>
+        <li>Heavily involved in infrastructure and devops including build systems and servers/AWS</li>
+        <li>Serving 10 000+ daily end users with always available systems</li>
+        <li>Technical responsibility for the web shop, generating 75% of company revenue</li>
+        <li>Technical responsibility for authentication and the license systems</li>
+        <li>True full stack development from databases via APIs and microservices to frontend</li>
+        <li>Quickly got up to speed in new frameworks - Python & Django</li>
         </ul>`
     },
     {
       title: "FULLSTACK DEVELOPER (consultant)",
-      company: "Swedish Police (via HiQ)",
+      company: "Polisen (via HiQ)",
       from: "June 2016",
       to: "October 2017",
       description: `<ul>
-          <li>Primary frontend developer porting COBOL systems to modern web-based applications</li>
-          <li>Significant Java backend development</li>
-          <li>Delivered applications far ahead of schedule</li>
-          <li>Introduced frontend build systems and testing to the team</li>
+          <li>Lead frontend developer porting COBOL systems to modern web-based applications</li>
+          <li>Also included significant Java backend development</li>
+          <li>Deliverables finished far ahead of schedule</li>
+          <li>Introduced the team to frontend build systems and testing</li>
         </ul>`
     },
     {
@@ -39,9 +39,9 @@
       to: "June 2016",
       description: `<ul>
           <li>Lead frontend developer in multiple projects</li>
-          <li>Big influence on UX and design decisions</li>
-          <li>Introduced many new technologies including AngularJS, Sharepoint APIs and Microsoft Graph</li>
-          <li>Developed new intranet - starting point for 1100 employees and 70 000+ views per month</li>
+          <li>Large influence on UX and design decisions</li>
+          <li>Introduced new technologies incl. AngularJS, Sharepoint APIs and Microsoft Graph</li>
+          <li>Developed new intranet - start page for 1100 employees and 70 000+ views/month</li>
           <li>Various other projects, including portals for project planning and time reporting</li>
         </ul>`
     },
@@ -58,9 +58,9 @@
       from: "February 2012",
       to: "August 2014",
       description: `<ul>
-          <li>Advanced from graduate to lead developer of the projects Java services within the first year</li>
-          <li>Chosen to the 7 strong <em>core team</em> out of 25 total</li>
-          <li>Responsible for estimation, analysis, bugfixing and documentation of invidents and change requests</li>
+          <li>Advanced from graduate to lead developer of the Java services within the first year</li>
+          <li>Chosen to the 7 employee <em>core team</em> out of total 25 employees</li>
+          <li>Responsible for estimation, analysis, bugfixing and documentation of incidents and change requests</li>
           <li>Project leader responsibilites for time plans, team briefings and client meetings</li>
           <li>Shared responisibility for new hires, including interviews, training and core reviews</li>
         </ul>`
@@ -199,7 +199,8 @@
         display: none;
       }
       .name {
-        border-bottom: 2px solid grey;
+        color: black;
+        border-bottom: 1px solid gray;
       }
 
       img {
@@ -239,7 +240,7 @@
       <Experience {...exp} />
     {/each}
 
-    <h2>EDUCATION</h2>
+    <h2 style="margin-top: 20px;">EDUCATION</h2>
     {#each educations as edu}
       <Education
         title={edu.title}
