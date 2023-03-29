@@ -6,12 +6,12 @@
   export let description;
 </script>
 
-<style type="text/scss">
+<style lang="scss">
   div {
     position: relative;
     margin-bottom: 30px;
 
-    strong.title {
+    .title {
       margin-bottom: 5px;
     }
 

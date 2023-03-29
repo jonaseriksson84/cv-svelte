@@ -45,7 +45,7 @@
   ];
 </script>
 
-<style type="text/scss">
+<style lang="scss">
   aside {
     max-width: 25%;
     padding: 0 15px;

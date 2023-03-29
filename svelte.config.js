@@ -1,22 +1,7 @@
-const sass = require("node-sass");
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
 
-module.exports = {
-  preprocess: {
-    style: async ({ content, attributes }) => {
-      if (attributes.type !== "text/scss") {
-        return;
-      }
-
-      const result = await renderScss({
-        data: content,
-        sourceMap: "style.css.map",
-        omitSourceMapUrl: true
-      });
-
-      return {
-        code: result.css.toString("utf8"),
-        map: result.map.toString("utf8")
-      };
-    }
-  }
-};
+export default {
+  // Consult https://svelte.dev/docs#compile-time-svelte-preprocess
+  // for more information about preprocessors
+  preprocess: vitePreprocess(),
+}

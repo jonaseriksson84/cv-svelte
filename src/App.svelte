@@ -92,7 +92,7 @@
   ];
 </script>
 
-<style type="text/scss">
+<style lang="scss">
   @page {
     size: auto;
     margin: 0;
